@@ -2,7 +2,8 @@
   "name": "smart-document-search-frontend",
   "version": "1.0.0",
   "scripts": {
-    "build": "flutter build web --web-renderer canvaskit"
+    "build": "flutter build web",
+    "vercel-build": "flutter build web"
   },
   "devDependencies": {}
 }
