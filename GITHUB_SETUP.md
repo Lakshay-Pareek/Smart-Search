@@ -49,10 +49,21 @@ Back in your PowerShell/Terminal, run:
 # Add GitHub as remote (replace with YOUR repository URL)
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 
+# Pull remote changes first (in case GitHub created a README)
+git pull origin main --allow-unrelated-histories
+
 # Push to GitHub
 git branch -M main
 git push -u origin main
 ```
+
+**Note:** If you get an error saying "refusing to merge unrelated histories", use:
+
+```powershell
+git pull origin main --allow-unrelated-histories
+```
+
+This merges any files GitHub created (like README.md) with your local files.
 
 **Note:** If you get an authentication error:
 
