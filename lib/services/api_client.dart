@@ -16,7 +16,7 @@ class ApiClient {
   // For production, set via environment variable or build flag
   static const String _baseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'http://127.0.0.1:8000',
+    defaultValue: 'https://smart-search-api-xpku.onrender.com',
   );
 
   Future<List<Map<String, dynamic>>> search(String query,
