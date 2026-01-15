@@ -191,3 +191,5 @@ Once your code is on GitHub:
 - **Backend**: Deploy to [Railway](https://railway.app) (free tier)
 
 For detailed deployment instructions, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
+
+# Smart-Search
