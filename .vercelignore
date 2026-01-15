@@ -9,7 +9,6 @@ windows/
 .idea/
 *.md
 !README.md
-build/
 .dart_tool/
 .packages
 pubspec.lock
