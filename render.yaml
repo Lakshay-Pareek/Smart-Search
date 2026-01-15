@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: smart-search-backend
+    env: python
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./smart_search.db
+      - key: PORT
+        value: 8000

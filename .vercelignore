@@ -1,0 +1,15 @@
+backend/
+android/
+ios/
+linux/
+macos/
+windows/
+.git/
+.vscode/
+.idea/
+*.md
+!README.md
+build/
+.dart_tool/
+.packages
+pubspec.lock

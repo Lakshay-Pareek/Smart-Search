@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002465098657",
+    "project_id": "smart-search-984a7",
+    "storage_bucket": "smart-search-984a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002465098657:android:5235c7f10bc9ac283369e0",
+        "android_client_info": {
+          "package_name": "com.example.smart_document_search_frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNPKMlT1ia4BlxJMpl2NSSPlRxnfIoc0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
